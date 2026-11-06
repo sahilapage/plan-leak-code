@@ -1,0 +1,10 @@
+step0 TEST rollout ADE (logged plan) 0.4856
+step1 TEST rollout ADE (logged plan) 0.4705
+step2 TEST rollout ADE (logged plan) 0.4655
+step3 TEST rollout ADE (logged plan) 0.4652
+step6 TEST rollout ADE (logged plan) 0.4692
+chunk TEST rollout ADE (logged plan) 0.4623
+marg TEST rollout ADE (logged plan) 0.4697
+P3 step0 - chunk 0.0057 [0.     0.0114] share<=0 0.04
+
+[exited with code 0]

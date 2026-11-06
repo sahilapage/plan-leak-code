@@ -1,0 +1,14 @@
+I2-World, collide vs logged; agents (all / isolated): {'adjacent': {'size': 109, 'sum': 1}, 'follower': {'size': 58, 'sum': 18}, 'lead': {'size': 133, 'sum': 50}, 'oncoming': {'size': 47, 'sum': 31}, 'parked': {'size': 183, 'sum': 54}}
+lead      +2 s beta +0.54 [+0.30, +0.71] n 48 (9 scenes), median dx_ego +5.0 m
+lead      +3 s beta +0.65 [+0.38, +0.79] n 48 (9 scenes), median dx_ego +11.2 m
+          data: corr(a_agent, a_ego) +0.59 (n 133)
+follower  +2 s beta +0.46 [+0.40, +0.57] n 18 (6 scenes), median dx_ego +4.7 m
+follower  +3 s beta +0.58 [+0.52, +0.71] n 18 (6 scenes), median dx_ego +10.7 m
+          data: corr(a_agent, a_ego) +0.70 (n 58)
+          data: corr(a_agent, a_ego) +0.62 (n 109)
+oncoming  +2 s beta +0.00 [-0.11, +0.00] n 20 (6 scenes), median dx_ego +6.2 m
+oncoming  +3 s beta +0.21 [+0.03, +0.90] n 10 (4 scenes), median dx_ego +14.1 m
+          data: corr(a_agent, a_ego) -0.14 (n 47)
+parked    +2 s beta +0.00 [+0.00, +0.00] n 45 (5 scenes), median dx_ego +5.0 m
+parked    +3 s beta +0.00 [+0.00, +0.04] n 41 (5 scenes), median dx_ego +11.2 m
+          data: corr(a_agent, a_ego) +0.17 (n 183)

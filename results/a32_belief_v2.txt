@@ -1,0 +1,14 @@
+belief test: 236 lead windows with a finite true limit (54 scenes); median true safe extra accel 3.75
+  step0  median ratio 0.88 [0.83, 0.96] | law 1/(1-beta) 1.00 | mean believed 3.53 vs true 4.06 | censored at 8: 0.01 | share believed >= 1.5 x true 0.04
+  marg   median ratio 1.00 [1.00, 1.00] | law 1/(1-beta) 1.00 | mean believed 4.16 vs true 4.06 | censored at 8: 0.03 | share believed >= 1.5 x true 0.06
+  step6  median ratio 1.52 [1.28, 1.78] | law 1/(1-beta) 1.61 | mean believed 6.28 vs true 4.06 | censored at 8: 0.44 | share believed >= 1.5 x true 0.53
+  step3  median ratio 1.45 [1.28, 1.70] | law 1/(1-beta) 1.69 | mean believed 6.04 vs true 4.06 | censored at 8: 0.39 | share believed >= 1.5 x true 0.49
+  step2  median ratio 1.52 [1.28, 1.76] | law 1/(1-beta) 1.79 | mean believed 6.22 vs true 4.06 | censored at 8: 0.44 | share believed >= 1.5 x true 0.51
+  chunk  median ratio 1.25 [1.18, 1.38] | law 1/(1-beta) 3.13 | mean believed 5.23 vs true 4.06 | censored at 8: 0.10 | share believed >= 1.5 x true 0.31
+  step1  median ratio 1.55 [1.33, 1.93] | law 1/(1-beta) 3.85 | mean believed 6.64 vs true 4.06 | censored at 8: 0.58 | share believed >= 1.5 x true 0.54
+  gtcv   median ratio 1.00 [1.00, 1.00] | law 1/(1-beta) nan | mean believed 4.00 vs true 4.06 | censored at 8: 0.03 | share believed >= 1.5 x true 0.05
+  pm_chunk median ratio 1.00 [1.00, 1.00] | law 1/(1-beta) nan | mean believed 4.09 vs true 4.06 | censored at 8: 0.03 | share believed >= 1.5 x true 0.06
+  pm_step1 median ratio 1.00 [1.00, 1.00] | law 1/(1-beta) nan | mean believed 4.14 vs true 4.06 | censored at 8: 0.04 | share believed >= 1.5 x true 0.08
+  P1: chunk 1.25 (>= 1.5?) | step0 0.88 (in [0.8, 1.25]?)
+  P2: chunk - step0 median ratio +0.37 [+0.24, +0.52]
+  P2: Spearman(median ratio, 1/(1-beta)) over 7 WMs = +0.71

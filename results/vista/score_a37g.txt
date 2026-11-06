@@ -1,0 +1,8 @@
+readout validity (REAL keyframes, lead + static): median |d_est - d_true| 1 s 0.29 m (n 87) | 2 s 0.31 m (n 89)
+P4      collide vs logged    median beta +1.04 [+0.97, +1.13] n 30 | contact in clip 0.03
+s     s-collide vs logged    median beta +1.05 [+0.94, +1.15] n 29 | contact in clip 0.00
+h     h-collide vs h-logged  median beta +0.98 [+0.86, +1.04] n 29 | contact in clip 0.00
+d1           d1 vs logged    median beta +0.95 [+0.74, +1.23] n 30 | contact in clip 0.00
+d3           d3 vs logged    median beta +1.02 [+0.92, +1.11] n 30 | contact in clip 0.63
+A37g: median beta(h) - beta(s) paired -0.04 [-0.17, +0.07] n 29
+A37b Vista: median slope +1.01 [+0.95, +1.23] n 30 | braking pulls the lead towards the ego in 0.88 of 16 windows

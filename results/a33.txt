@@ -1,0 +1,31 @@
+A33: 653 windows (120 scenes), candidates [0.0, 1.0, 1.25, 1.5, 1.75, 2.0, 2.25, 2.5, 2.75, 3.0, 3.25, 3.5]
+matched progress 1.5: self_orig real 0.037 believed 0.035 | cvref real 0.019 believed 0.059 | cvmarg_orig real 0.016 believed 0.057 | self_rpt real 0.013 believed 0.054 | cvmarg_rpt real 0.012 believed 0.056 | dome_self real nan believed nan | dome_cvref real 0.011 believed 0.015 | come real 0.016 believed 0.008 | physics real 0.033 believed 0.010 | truth real 0.024 believed 0.024
+matched progress 2.0: self_orig real 0.065 believed 0.048 | cvref real 0.025 believed 0.079 | cvmarg_orig real 0.021 believed 0.075 | self_rpt real 0.014 believed 0.072 | cvmarg_rpt real 0.014 believed 0.076 | dome_self real nan believed nan | dome_cvref real 0.022 believed 0.025 | come real 0.021 believed 0.011 | physics real 0.048 believed 0.016 | truth real 0.033 believed 0.033
+matched progress 2.5: self_orig real 0.092 believed 0.062 | cvref real 0.037 believed 0.098 | cvmarg_orig real 0.028 believed 0.097 | self_rpt real 0.024 believed 0.093 | cvmarg_rpt real 0.029 believed 0.104 | dome_self real nan believed nan | dome_cvref real 0.046 believed 0.041 | come real 0.038 believed 0.020 | physics real 0.053 believed 0.018 | truth real 0.041 believed 0.041
+  progress 1.5: real crash self_orig - cvmarg_orig +0.021 [+0.006, +0.039]
+  progress 1.5: real crash self_orig - cvref +0.018 [+0.003, +0.033]
+  progress 1.5: real crash self_orig - physics +0.004 [-0.013, +0.024]
+  progress 1.5: real crash cvmarg_orig - physics -0.017 [-0.029, -0.004]
+  progress 1.5: real crash self_rpt - cvmarg_rpt +0.001 [-0.002, +0.004]
+  progress 1.5: real crash dome_self - dome_cvref +nan [+nan, +nan]
+  progress 1.5: real crash dome_self - come +nan [+nan, +nan]
+  progress 2.0 (P1 primary): real crash self_orig - cvmarg_orig +0.044 [+0.021, +0.070]
+  progress 2.0: real crash self_orig - cvref +0.040 [+0.019, +0.061]
+  progress 2.0: real crash self_orig - physics +0.017 [-0.003, +0.042]
+  progress 2.0: real crash cvmarg_orig - physics -0.027 [-0.043, -0.011]
+  progress 2.0: real crash self_rpt - cvmarg_rpt +0.000 [-0.004, +0.004]
+  progress 2.0: real crash dome_self - dome_cvref +nan [+nan, +nan]
+  progress 2.0: real crash dome_self - come +nan [+nan, +nan]
+  progress 2.5: real crash self_orig - cvmarg_orig +0.065 [+0.032, +0.089]
+  progress 2.5: real crash self_orig - cvref +0.055 [+0.029, +0.080]
+  progress 2.5: real crash self_orig - physics +0.039 [+0.012, +0.068]
+  progress 2.5: real crash cvmarg_orig - physics -0.025 [-0.037, +0.002]
+  progress 2.5: real crash self_rpt - cvmarg_rpt -0.005 [-0.013, +0.002]
+  progress 2.5: real crash dome_self - dome_cvref +nan [+nan, +nan]
+  progress 2.5: real crash dome_self - come +nan [+nan, +nan]
+  P2 progress 2.0 self_orig: believed 0.048 / real 0.065 = 0.75
+  P2 progress 2.0 cvmarg_orig: believed 0.075 / real 0.021 = 3.56
+  P2 progress 2.0 cvref: believed 0.079 / real 0.025 = 3.19
+  P2 progress 2.0 dome_self: believed nan / real nan = nan
+  P2 progress 2.0 dome_cvref: believed 0.025 / real 0.022 = 1.16
+  P2 progress 2.0 come: believed 0.011 / real 0.021 = 0.53

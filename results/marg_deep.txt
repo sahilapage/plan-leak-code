@@ -1,0 +1,51 @@
+<work>/het_f0: 3506 rows, 336 windows
+<work>/het_f1: 3307 rows, 317 windows
+A  prior from other fold: a_log ~ N(+0.39 -0.056 v0, 0.61)
+A  prior from other fold: a_log ~ N(+0.81 -0.106 v0, 0.60)
+A  back-door weighting / K / worst-case (pooled held-out)
+    653 windows, 120 scenes, 434 crash candidates
+    k1_orig          gain +0.056 [+0.028, +0.085]
+    k3_orig          gain +0.068 [+0.036, +0.100]
+    k5_orig          gain +0.075 [+0.042, +0.107]
+    k7_orig          gain +0.073 [+0.041, +0.107]
+    wmarg_orig       gain +0.064 [+0.033, +0.095]
+    maxmarg_orig     gain +0.077 [+0.042, +0.112]
+    wmarg_rpt        gain +0.074 [+0.043, +0.108]
+    physics          gain +0.092 [+0.054, +0.131]
+    paired wmarg_orig - k7_orig: -0.009 [-0.017, -0.002]
+    paired k7_orig - k1_orig: +0.017 [+0.006, +0.029]
+    paired maxmarg_orig - k7_orig: +0.003 [-0.003, +0.009]
+    paired physics - wmarg_orig: +0.028 [+0.012, +0.046]
+B  label-free Plan-Leak Index (PLI = -slope of a fixed box's score vs conditioning accel)
+   orig: mean PLI +0.0435 (median +0.0128, share > 0 0.80) | Spearman(PLI, self under-scoring of true crashes) +0.58 [+0.32, +0.79] over 104 windows with a crash candidate
+   rpt: mean PLI +0.0093 (median +0.0053, share > 0 0.68) | Spearman(PLI, self under-scoring of true crashes) +0.68 [+0.53, +0.78] over 104 windows with a crash candidate
+C  [lead |accel| >= 1]
+    31 windows, 22 scenes, 18 crash candidates
+    self_orig        gain +0.016 [-0.020, +0.076]
+    cvmarg_orig      gain +0.040 [-0.027, +0.113]
+    wmarg_orig       gain +0.000 [-0.034, +0.046]
+    physics          gain +0.048 [-0.020, +0.122]
+    h_gap0           gain +0.040 [-0.047, +0.138]
+    paired cvmarg_orig - physics: -0.008 [-0.036, +0.008]
+    paired wmarg_orig - physics: -0.048 [-0.105, +0.000]
+    paired cvmarg_orig - self_orig: +0.024 [-0.015, +0.071]
+C  [lead |accel| < 1]
+    322 windows, 67 scenes, 409 crash candidates
+    self_orig        gain +0.004 [-0.033, +0.040]
+    cvmarg_orig      gain +0.092 [+0.052, +0.135]
+    wmarg_orig       gain +0.088 [+0.049, +0.130]
+    physics          gain +0.133 [+0.089, +0.176]
+    h_gap0           gain +0.068 [+0.019, +0.129]
+    paired cvmarg_orig - physics: -0.041 [-0.072, -0.018]
+    paired wmarg_orig - physics: -0.045 [-0.076, -0.022]
+    paired cvmarg_orig - self_orig: +0.088 [+0.054, +0.122]
+C  [lead det error >= 2 m or missed]
+    233 windows, 65 scenes, 218 crash candidates
+    self_orig        gain -0.003 [-0.055, +0.049]
+    cvmarg_orig      gain +0.073 [+0.028, +0.131]
+    wmarg_orig       gain +0.061 [+0.017, +0.116]
+    physics          gain +0.099 [+0.056, +0.148]
+    h_gap0           gain +0.050 [-0.001, +0.114]
+    paired cvmarg_orig - physics: -0.026 [-0.052, -0.003]
+    paired wmarg_orig - physics: -0.038 [-0.069, -0.017]
+    paired cvmarg_orig - self_orig: +0.076 [+0.043, +0.114]

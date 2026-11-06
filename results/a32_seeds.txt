@@ -1,0 +1,37 @@
+lambda 64.0: real crash (believed) per WM column x policy seed (0, 1, 2)
+  truth          real 0.043 0.043 0.049 (mean 0.045) | believed 0.045 | mean a 4.52
+  gtcv           real 0.043 0.052 0.055 (mean 0.050) | believed 0.042 | mean a 4.73
+  step0          real 0.043 0.043 0.049 (mean 0.045) | believed 0.051 | mean a 4.46
+  step1          real 0.155 0.149 0.147 (mean 0.150) | believed 0.034 | mean a 5.73
+  chunk          real 0.064 0.072 0.064 (mean 0.067) | believed 0.040 | mean a 5.18
+  step0_s1       real 0.049 0.049 0.049 (mean 0.049) | believed 0.053 | mean a 4.74
+  step1_s1       real 0.112 0.216 0.205 (mean 0.178) | believed 0.043 | mean a 6.05
+  chunk_s1       real 0.066 0.077 0.066 (mean 0.069) | believed 0.036 | mean a 5.22
+  step0_s2       real 0.046 0.049 0.044 (mean 0.046) | believed 0.041 | mean a 4.57
+  step1_s2       real 0.112 0.123 0.118 (mean 0.117) | believed 0.042 | mean a 5.50
+  chunk_s2       real 0.080 0.077 0.077 (mean 0.078) | believed 0.035 | mean a 5.22
+  pm_step1       real 0.054 0.049 0.049 (mean 0.051) | believed 0.050 | mean a 4.73
+  pm_chunk       real 0.051 0.051 0.051 (mean 0.051) | believed 0.041 | mean a 4.90
+  pm_step1_s1    real 0.049 0.051 0.049 (mean 0.050) | believed 0.051 | mean a 4.80
+  pm_chunk_s1    real 0.043 0.043 0.052 (mean 0.046) | believed 0.041 | mean a 4.54
+  pm_step1_s2    real 0.054 0.052 0.049 (mean 0.052) | believed 0.045 | mean a 4.75
+  pm_chunk_s2    real 0.043 0.043 0.051 (mean 0.045) | believed 0.044 | mean a 4.54
+lambda 128.0: real crash (believed) per WM column x policy seed (0, 1, 2)
+  truth          real 0.028 0.032 0.032 (mean 0.031) | believed 0.031 | mean a 3.60
+  gtcv           real 0.026 0.026 0.026 (mean 0.026) | believed 0.028 | mean a 3.34
+  step0          real 0.029 0.028 0.028 (mean 0.028) | believed 0.034 | mean a 3.60
+  step1          real 0.118 0.121 0.118 (mean 0.119) | believed 0.027 | mean a 4.08
+  chunk          real 0.029 0.031 0.028 (mean 0.029) | believed 0.016 | mean a 3.67
+  step0_s1       real 0.021 0.018 0.034 (mean 0.025) | believed 0.028 | mean a 3.59
+  step1_s1       real 0.009 0.026 0.012 (mean 0.016) | believed 0.009 | mean a 1.71
+  chunk_s1       real 0.032 0.037 0.037 (mean 0.035) | believed 0.020 | mean a 3.76
+  step0_s2       real 0.021 0.032 0.037 (mean 0.030) | believed 0.028 | mean a 3.43
+  step1_s2       real 0.009 0.093 0.009 (mean 0.037) | believed 0.010 | mean a 1.83
+  chunk_s2       real 0.032 0.032 0.032 (mean 0.032) | believed 0.018 | mean a 3.58
+  pm_step1       real 0.032 0.032 0.032 (mean 0.032) | believed 0.034 | mean a 3.53
+  pm_chunk       real 0.032 0.032 0.032 (mean 0.032) | believed 0.026 | mean a 3.61
+  pm_step1_s1    real 0.025 0.026 0.026 (mean 0.026) | believed 0.029 | mean a 3.30
+  pm_chunk_s1    real 0.032 0.028 0.028 (mean 0.029) | believed 0.027 | mean a 3.48
+  pm_step1_s2    real 0.028 0.028 0.028 (mean 0.028) | believed 0.029 | mean a 3.36
+  pm_chunk_s2    real 0.032 0.037 0.031 (mean 0.033) | believed 0.033 | mean a 3.65
+SEEDS_RL_DONE

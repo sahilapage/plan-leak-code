@@ -1,0 +1,28 @@
+A33: 653 windows (120 scenes), candidates [0.0, 1.0, 1.25, 1.5, 1.75, 2.0, 2.25, 2.5, 2.75, 3.0, 3.25, 3.5]
+matched progress 1.5: self_orig real 0.037 believed 0.035 | cvmarg_orig real 0.016 believed 0.057 | physics real 0.033 believed 0.010 | physics_soft real 0.027 believed 0.007 | truth real 0.024 believed 0.024 | truth_soft real 0.027 believed 0.024
+matched progress 2.0: self_orig real 0.065 believed 0.048 | cvmarg_orig real 0.021 believed 0.075 | physics real 0.048 believed 0.016 | physics_soft real 0.036 believed 0.009 | truth real 0.033 believed 0.033 | truth_soft real 0.031 believed 0.028
+matched progress 2.5: self_orig real 0.092 believed 0.062 | cvmarg_orig real 0.028 believed 0.097 | physics real 0.053 believed 0.018 | physics_soft real 0.043 believed 0.013 | truth real 0.041 believed 0.041 | truth_soft real 0.038 believed 0.035
+  progress 1.5: real crash self_orig - cvmarg_orig +0.021 [+0.006, +0.039]
+  progress 1.5: real crash self_orig - physics +0.004 [-0.013, +0.024]
+  progress 1.5: real crash cvmarg_orig - physics_soft -0.011 [-0.022, -0.001]
+  progress 1.5: real crash self_orig - physics_soft +0.010 [-0.008, +0.028]
+  progress 1.5: real crash cvmarg_orig - truth_soft -0.010 [-0.028, +0.004]
+  progress 1.5: real crash physics_soft - physics -0.006 [-0.014, +0.002]
+  progress 1.5: real crash cvmarg_orig - physics -0.017 [-0.029, -0.004]
+  progress 2.0 (P1 primary): real crash self_orig - cvmarg_orig +0.044 [+0.021, +0.070]
+  progress 2.0: real crash self_orig - physics +0.017 [-0.003, +0.042]
+  progress 2.0: real crash cvmarg_orig - physics_soft -0.015 [-0.027, -0.002]
+  progress 2.0: real crash self_orig - physics_soft +0.029 [+0.009, +0.055]
+  progress 2.0: real crash cvmarg_orig - truth_soft -0.010 [-0.029, +0.006]
+  progress 2.0: real crash physics_soft - physics -0.012 [-0.025, +0.001]
+  progress 2.0: real crash cvmarg_orig - physics -0.027 [-0.043, -0.011]
+  progress 2.5: real crash self_orig - cvmarg_orig +0.065 [+0.032, +0.089]
+  progress 2.5: real crash self_orig - physics +0.039 [+0.012, +0.068]
+  progress 2.5: real crash cvmarg_orig - physics_soft -0.015 [-0.026, +0.012]
+  progress 2.5: real crash self_orig - physics_soft +0.049 [+0.022, +0.082]
+  progress 2.5: real crash cvmarg_orig - truth_soft -0.010 [-0.030, +0.018]
+  progress 2.5: real crash physics_soft - physics -0.010 [-0.021, -0.000]
+  progress 2.5: real crash cvmarg_orig - physics -0.025 [-0.037, +0.002]
+  P2 progress 2.0 self_orig: believed 0.048 / real 0.065 = 0.75
+  P2 progress 2.0 cvmarg_orig: believed 0.075 / real 0.021 = 3.56
+

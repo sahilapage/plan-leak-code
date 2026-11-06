@@ -1,0 +1,12 @@
+lambda    64 step1 : real crashes 101 | WM said safe 0.86 | of those, plan-free model flags crash 0.84, GT-CV flags 0.87 | effective beta at chosen plan (median) +0.66 | mean chosen a 5.75
+lambda    64 chunk : real crashes  42 | WM said safe 0.50 | of those, plan-free model flags crash 0.48, GT-CV flags 0.29 | effective beta at chosen plan (median) +0.13 | mean chosen a 5.19
+lambda    64 step2 : real crashes  83 | WM said safe 0.82 | of those, plan-free model flags crash 0.87, GT-CV flags 0.87 | effective beta at chosen plan (median) +0.58 | mean chosen a 5.54
+lambda    64 step0 : real crashes  28 | WM said safe 0.39 | of those, plan-free model flags crash 0.45, GT-CV flags 0.45 | effective beta at chosen plan (median) +0.00 | mean chosen a 4.36
+lambda   128 step1 : real crashes  77 | WM said safe 0.88 | of those, plan-free model flags crash 0.84, GT-CV flags 0.84 | effective beta at chosen plan (median) +0.71 | mean chosen a 3.97
+lambda   128 chunk : real crashes  19 | WM said safe 0.58 | of those, plan-free model flags crash 0.55, GT-CV flags 0.55 | effective beta at chosen plan (median) +0.01 | mean chosen a 3.64
+lambda   128 step2 : real crashes  56 | WM said safe 0.88 | of those, plan-free model flags crash 0.82, GT-CV flags 0.88 | effective beta at chosen plan (median) +0.62 | mean chosen a 3.98
+lambda   128 step0 : real crashes  19 | WM said safe 0.32 | of those, plan-free model flags crash 0.33, GT-CV flags 0.50 | effective beta at chosen plan (median) +0.00 | mean chosen a 3.47
+lambda   256 step1 : real crashes   6 | WM said safe 0.50 | of those, plan-free model flags crash 0.00, GT-CV flags 0.00 | effective beta at chosen plan (median) +0.00 | mean chosen a 0.86
+lambda   256 chunk : real crashes   6 | WM said safe 0.67 | of those, plan-free model flags crash 0.25, GT-CV flags 0.00 | effective beta at chosen plan (median) +0.01 | mean chosen a 1.12
+lambda   256 step2 : real crashes   6 | WM said safe 0.50 | of those, plan-free model flags crash 0.00, GT-CV flags 0.00 | effective beta at chosen plan (median) +0.00 | mean chosen a 1.20
+lambda   256 step0 : real crashes   6 | WM said safe 0.33 | of those, plan-free model flags crash 0.00, GT-CV flags 0.00 | effective beta at chosen plan (median) +0.01 | mean chosen a 1.08

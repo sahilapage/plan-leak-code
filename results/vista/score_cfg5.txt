@@ -1,0 +1,6 @@
+<work>/.a37venv/lib/python3.9/site-packages/numpy/_core/fromnumeric.py:3596: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+<work>/.a37venv/lib/python3.9/site-packages/numpy/_core/_methods.py:138: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+readout validity (REAL keyframes, lead + static): median |d_est - d_true| 1 s 0.58 m (n 26) | 2 s 0.84 m (n 28)
+P4      collide vs logged    median beta +1.06 [+0.96, +1.57] n 11 | contact in clip 0.00

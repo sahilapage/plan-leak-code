@@ -1,0 +1,12 @@
+original : kept +2 s logged 0.661 / collide 0.130 -> clearing +0.530 | self recall 0.035 | self FA 0.035 | lead beta +2 s median +0.83 (+3 s +0.96) | background beta +2 s +0.07
+control  : kept +2 s logged 0.957 / collide 0.252 -> clearing +0.704 | self recall 0.252 | self FA 0.122 | lead beta +2 s median +0.84 (+3 s +0.92) | background beta +2 s +0.07
+CPC      : kept +2 s logged 0.957 / collide 0.374 -> clearing +0.583 | self recall 0.574 | self FA 0.304 | lead beta +2 s median +0.77 (+3 s +0.91) | background beta +2 s +0.05
+RPT-0.5  : kept +2 s logged 0.957 / collide 0.357 -> clearing +0.600 | self recall 0.461 | self FA 0.287 | lead beta +2 s median +0.77 (+3 s +0.89) | background beta +2 s +0.05
+RPT-1.0  : kept +2 s logged 0.904 / collide 0.583 -> clearing +0.322 | self recall 0.696 | self FA 0.513 | lead beta +2 s median +0.73 (+3 s +0.95) | background beta +2 s +0.07
+P1 lead beta +2 s (median paired diff), RPT-1.0 - CPC: +0.000 [-0.067, +0.000] (n 112, 11 scenes) -> NOT SUPPORTED
+P2 clearing +2 s, RPT-1.0 - CPC: -0.261 [-0.400, -0.129] (n 115, 11 scenes) -> SUPPORTED
+P3 self recall, RPT-1.0 - CPC: +0.122 [+0.053, +0.183] (n 115, 11 scenes) -> SUPPORTED
+P4 self false alarm, RPT-1.0 - control (upper <= +0.05): +0.391 [+0.135, +0.586] (n 115, 11 scenes) -> NOT SUPPORTED
+descriptive: RPT-0.5 - CPC (anchoring alone): lead beta +0.000 [+0.000, +0.000] (n 112, 11 scenes) | clearing +0.017 [-0.026, +0.054] (n 115, 11 scenes) | recall -0.113 [-0.213, -0.034] (n 115, 11 scenes) | FA -0.017 [-0.085, +0.065] (n 115, 11 scenes)
+descriptive: RPT-1.0 - control: lead beta -0.107 [-0.160, +0.000] (n 112, 11 scenes) | clearing -0.383 [-0.604, -0.180] (n 115, 11 scenes) | recall +0.443 [+0.271, +0.642] (n 115, 11 scenes)
+descriptive: background beta RPT-1.0 - CPC +0.000 [+0.000, +0.000] (n 112, 11 scenes)

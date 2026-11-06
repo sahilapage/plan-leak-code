@@ -1,0 +1,2 @@
+2b87f1964b5386934a4ceb96193f0ff5d14c6aab1f3eaebb985f718cb8ab548b  src/sw_cvjudge.py
+9cdf904759c05dc9879de79cba279873bc177eb138a609fb1752b4679c7a6b13  src/swtc_verifier.py

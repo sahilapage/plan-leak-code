@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper."
+title: "Plans Are Not Interventions: Measuring and Repairing Plan Leakage in Driving World Models"
+authors:
+  - family-names: Apage
+    given-names: Sahil
+    affiliation: Veermata Jijabai Technological Institute
+  - family-names: Abhilash
+    given-names: Medhansh
+    affiliation: Veermata Jijabai Technological Institute
+license: MIT
+repository-code: "https://github.com/sahilapage/plan-leak-code"
+url: "https://sahilapage.github.io/plan-leak/"
+preferred-citation:
+  type: conference-paper
+  title: "Plans Are Not Interventions: Measuring and Repairing Plan Leakage in Driving World Models"
+  authors:
+    - family-names: Apage
+      given-names: Sahil
+    - family-names: Abhilash
+      given-names: Medhansh
+  collection-title: "CoRL 2026 Workshop on Grounded 4D Multimodal World Models for Autonomous Driving Decision Making"
+  year: 2026

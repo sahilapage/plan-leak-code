@@ -1,0 +1,27 @@
+% Fig. 2: which plan steps the model is given when it generates the world at t+1. TikZ, document font.
+\begin{tikzpicture}[font=\scriptsize, >=Stealth,
+  on/.style={circle, draw=redC, fill=redL, line width=0.6pt, minimum size=3.3mm, inner sep=0pt},
+  ok/.style={circle, draw=blueC, fill=blueL, line width=0.6pt, minimum size=3.3mm, inner sep=0pt},
+  off/.style={circle, draw=grayC!60, fill=white, line width=0.5pt, minimum size=3.3mm, inner sep=0pt}]
+% future plan steps: shaded
+\fill[redL!35, rounded corners=1.5pt] (2.33, -1.0) rectangle (3.36, 0.78);
+\node[text=redC] at (2.85, 0.92) {future plan};
+\node[text=blueC] at (1.8, 0.92) {past plan};
+\foreach \j/\lab in {1/{$t{-}1$}, 2/{$t$}, 3/{$t{+}1$}, 4/{$t{+}2$}}
+  \node at ({1.0 + 0.52*\j}, 0.6) {\lab};
+\node[font=\scriptsize\bfseries] at (4.15, 0.6) {world at $t{+}1$};
+\foreach \row/\y/\name/\n/\sty/\verdict/\vc in {
+    1/0.2/{whole plan}/4/on/{leaks}/redC,
+    2/-0.3/{pose per frame}/3/on/{leaks}/redC,
+    3/-0.8/{causal (past only)}/2/ok/{no leak}/blueC} {
+  \node[anchor=east] at (1.3, \y) {\name};
+  \foreach \j in {1,...,4} {
+    \pgfmathtruncatemacro{\vis}{\j <= \n ? 1 : 0}
+    \ifnum\vis=1 \node[\sty] (c\row\j) at ({1.0 + 0.52*\j}, \y) {}; \else \node[off] (c\row\j) at ({1.0 + 0.52*\j}, \y) {}; \fi
+  }
+  \draw[->, line width=0.6pt, draw=\vc] (3.45, \y) -- (3.8, \y);
+  \node[anchor=west, font=\scriptsize\bfseries, text=\vc] at (3.85, \y) {\verdict};
+}
+\node[on, minimum size=2.4mm] at (1.25, -1.25) {}; \node[anchor=west] at (1.36, -1.25) {given to the model};
+\node[off, minimum size=2.4mm] at (3.7, -1.25) {}; \node[anchor=west] at (3.81, -1.25) {hidden};
+\end{tikzpicture}

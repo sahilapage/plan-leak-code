@@ -1,0 +1,50 @@
+# Registration commits (git commit hash, UTC time, message) for the tests in App. F.
+# Each registration commit precedes the outputs it tests; the full history will be released after review.
+
+9ec84f4  2026-10-11 20:24 UTC  Deviation: queue sentinel error (A18 started early; A19 attempts OOM before output); corrected sequential chain
+90b48e1  2026-10-15 14:12 UTC  Register A25: randomized-plan training (past-only plan timing) vs logged-anchored counterfactuals
+6737ed2  2026-10-15 14:18 UTC  Register A26: past-only constant-velocity reference judge (fold-A dev: recall 0.72 / FA 0.13 vs self 0.07)
+755ee30  2026-10-15 14:19 UTC  A26: paired-difference helper for P1 (deviation logged before the fold-B result)
+98f9270  2026-10-15 15:39 UTC  Log A25 deviations (early primary evaluation; backward-compatible flag)
+c45cb56  2026-10-15 20:14 UTC  Register A27 (threshold-free AUROC on fold B: CV-reference vs self vs oracle); roc.py paired diff
+2b5e78d  2026-10-15 20:40 UTC  Register A28: speed-blind crash discrimination, RPT trained on fold A, tested on fold B
+7ab9752  2026-10-16 01:28 UTC  A29 registered: heterogeneous decision benchmark (sw_hetero.py), before forecasts
+4300cb0  2026-10-16 02:06 UTC  A28 result: registered predictions not supported; speed-blind AUROC fold-dependent; within-window plan sensitivity (exploratory)
+db31744  2026-10-16 07:29 UTC  A30 registered: plan-marginal judging (het_marg.py)
+f9ed847  2026-10-16 13:47 UTC  A31 registered: causal-in-time plan conditioning (obj_wm.py)
+12cec89  2026-10-16 20:09 UTC  A32 registered: leak law predicts reward hacking (belief ratio + policies trained in WMs)
+514c44f  2026-10-16 20:12 UTC  A32 amendment: plan-marginal reward (P4, P5) registered before outputs
+2f7a354  2026-10-16 20:15 UTC  A32 deviation 1: penetration geometry at all steps + lambda calibrated on truth-trained train crash 2%
+57d9dfd  2026-10-16 20:28 UTC  A33 registered: reward hacking inside frozen SWTC (camera 3D WM)
+9321fd7  2026-10-17 06:51 UTC  A34 registered: fading explains the residual gap to physics?
+8679e1f  2026-10-17 14:17 UTC  A35/A36 registered: ground-truth reactive world; test-time g-computation of frozen WMs; ensemble blind spot
+446c8a3  2026-10-17 20:07 UTC  A37 registered: plan leak in frozen 4D video WM (OmniNWM) + Vista arm; pilots logged
+06f40c9  2026-10-17 20:38 UTC  A37 amendment 1 (pilot data only): judge threshold 10 -> 50 points; pilot-2 pm0 observation
+1465bab  2026-10-17 20:51 UTC  A37b registered: dose-response of the leak in OmniNWM (+ Vista arm)
+f72e85b  2026-10-18 05:48 UTC  A37 amendment 2: disclosed interim look, PnP controllability, N 30->20, dose 10 windows, seed-1 replicates
+3500f5a  2026-10-18 06:23 UTC  A37 amendment 3: main N=18, dose on 9 moving-ego windows, Vista 5 plans, 50-step check, seed-1; register A37c planner test; side-lane control scripts
+1ebb552  2026-10-18 06:27 UTC  A37c planner scorer (registered before dose outputs), plan-marginal 4D re-render media
+b3c158b  2026-10-18 07:58 UTC  A37 amendment 4: planner test on all 18 windows (d1,d3 for stopped egos), seed-1 logged+collide
+35eabf4  2026-10-18 08:01 UTC  A37d: ray-map schedule (swK/wsK) in the OmniNWM driver; registered exploratory test
+560bd23  2026-10-18 08:04 UTC  A37d scorer (written before any switch generation)
+782adde  2026-10-18 10:30 UTC  A37f registered: motion-history intervention on OmniNWM (h-/s- plans); A37d and 50-step dropped
+df424a3  2026-10-18 10:53 UTC  A37g (Vista 3-frame history) and A38 (closed-loop planning in the A35 world) registered
+713be27  2026-10-18 10:57 UTC  A37h registered (conditional): video g-computation rollouts in Vista
+a4df74c  2026-10-18 17:11 UTC  A38 exploratory follow-ups logged before running: phantom-braking diagnostic, headway frontier
+03ec0e4  2026-10-18 17:25 UTC  A38 exploratory (c): phantom-braking diagnostic with gc_chunk, logged before its output
+a6bb5b6  2026-10-18 18:04 UTC  A37 controls on 18 windows (selectivity C1, vanish V1) logged before output
+4c9d664  2026-10-18 18:30 UTC  A39 registered: closed-loop planning on real nuScenes traffic (log replay) with the A31 object world models
+3743a1f  2026-10-18 18:38 UTC  Vista scorer (P4 / A37g / A37h / dose) committed before any Vista beta; VISTA_DEV for the readout
+8d9a113  2026-10-18 18:42 UTC  A40 registered: leak regime law tested by dosing beta (mixture judges); mixture judge support in A38 code
+3c48266  2026-10-18 20:09 UTC  A41 registered: leak dose on real traffic; A40 dose across model seeds
+a43ad02  2026-10-18 20:26 UTC  vista_score: A37b Vista dose arm (registered rule on the P4 readout), before any Vista output
+7057ab2  2026-10-18 20:57 UTC  Vista P4 supported (beta 1.04, n 30) and A37b Vista P1/P2 supported; A37h made unconditional (deviation)
+bc351b1  2026-10-18 20:57 UTC  vista_score: exclude the pilot window from A37g/A37h as registered
+649079b  2026-10-18 22:42 UTC  A37g P1 not supported (history does not reduce Vista's leak); A37h mechanism prediction logged before output
+065eea9  2026-10-19 00:40 UTC  Vista controllability check registered before output (may withdraw the Vista claims)
+acf7699  2026-10-19 00:40 UTC  audit3/vista_ctrl.py: Vista controllability by visual localization (registered)
+ce181ba  2026-10-19 00:45 UTC  Vista controllability fallback (generated-vs-generated localization) registered before output
+1d573a5  2026-10-19 01:04 UTC  Vista controllability not established by the registered checks; exploratory expansion measure
+f121d0c  2026-10-19 01:07 UTC  Deviation: stop A37h, add OmniNWM d1 arm (A37b P1 on the validated model)
+a7194a5  2026-10-19 01:09 UTC  A38 registered result: P1-P3 fail; patched whole-plan planner under-reacts
+dee5835  2026-10-19 04:37 UTC  Vista guidance test registered (cfg 5, 11 moving windows); VISTA_CFG

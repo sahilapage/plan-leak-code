@@ -1,0 +1,21 @@
+missing windows 0; logged-plan vs ego-pose max deviation median 0.000 m, p95 0.000 m
+6813 candidates -> <work>/objwm/judge.parquet
+    653 windows, 120 scenes, 434 crash candidates
+    ow_step0         gain +0.101 [+0.060, +0.136]
+    ow_step1         gain +0.090 [+0.052, +0.122]
+    ow_step2         gain +0.092 [+0.056, +0.125]
+    ow_step3         gain +0.093 [+0.058, +0.127]
+    ow_step6         gain +0.092 [+0.057, +0.125]
+    ow_chunk         gain +0.096 [+0.056, +0.131]
+    ow_marg          gain +0.100 [+0.060, +0.141]
+    gtcv             gain +0.100 [+0.060, +0.141]
+    physics          gain +0.092 [+0.053, +0.130]
+    self_orig        gain +0.018 [-0.004, +0.046]
+    cvref            gain +0.056 [+0.028, +0.088]
+    h_gap0           gain +0.069 [+0.032, +0.103]
+    paired ow_step0 - ow_chunk: +0.006 [+0.000, +0.011]
+    paired ow_step0 - ow_marg: +0.002 [-0.007, +0.002]
+    paired ow_step0 - gtcv: +0.001 [-0.007, +0.003]
+    paired ow_marg - ow_chunk: +0.004 [+0.000, +0.013]
+    paired ow_chunk - gtcv: -0.005 [-0.012, +0.000]
+    paired ow_step0 - physics: +0.010 [+0.001, +0.016]

@@ -1,0 +1,27 @@
+policy: train 12146 windows, eval 653 A29 windows (120 scenes)
+  calibrate lambda      2: truth-trained policy TRAIN crash 0.139, mean a 8.00
+  calibrate lambda      4: truth-trained policy TRAIN crash 0.139, mean a 8.00
+  calibrate lambda      8: truth-trained policy TRAIN crash 0.139, mean a 8.00
+  calibrate lambda     16: truth-trained policy TRAIN crash 0.039, mean a 7.17
+  calibrate lambda     32: truth-trained policy TRAIN crash 0.035, mean a 7.07
+  calibrate lambda     64: truth-trained policy TRAIN crash 0.034, mean a 6.98
+  calibrate lambda    128: truth-trained policy TRAIN crash 0.013, mean a 4.45
+  lambda* = 128.0
+  lambda   64: truth a 4.49 real 0.043 (believed 0.043) | gtcv a 4.15 real 0.043 (believed 0.038) | step0 a 4.36 real 0.043 (believed 0.049) | marg a 4.38 real 0.043 (believed 0.037) | step6 a 5.10 real 0.096 (believed 0.029) | step3 a 6.24 real 0.185 (believed 0.043) | step2 a 5.54 real 0.127 (believed 0.040) | chunk a 5.19 real 0.064 (believed 0.040) | step1 a 5.75 real 0.155 (believed 0.034) | pm_chunk a 4.82 real 0.051 (believed 0.041) | pm_step1 a 4.94 real 0.054 (believed 0.052)
+  lambda  128: truth a 3.67 real 0.028 (believed 0.028) | gtcv a 3.35 real 0.026 (believed 0.028) | step0 a 3.47 real 0.029 (believed 0.034) | marg a 3.47 real 0.029 (believed 0.028) | step6 a 4.61 real 0.112 (believed 0.031) | step3 a 4.52 real 0.078 (believed 0.032) | step2 a 3.98 real 0.086 (believed 0.023) | chunk a 3.64 real 0.029 (believed 0.017) | step1 a 3.97 real 0.118 (believed 0.025) | pm_chunk a 3.53 real 0.032 (believed 0.026) | pm_step1 a 3.53 real 0.032 (believed 0.034)
+  lambda  256: truth a 1.21 real 0.009 (believed 0.009) | gtcv a 0.81 real 0.009 (believed 0.006) | step0 a 1.08 real 0.009 (believed 0.009) | marg a 1.12 real 0.009 (believed 0.005) | step6 a 0.97 real 0.009 (believed 0.006) | step3 a 0.93 real 0.009 (believed 0.005) | step2 a 1.20 real 0.009 (believed 0.005) | chunk a 1.12 real 0.009 (believed 0.003) | step1 a 0.86 real 0.009 (believed 0.009) | pm_chunk a 1.04 real 0.009 (believed 0.006) | pm_step1 a 1.03 real 0.009 (believed 0.012)
+  P3 lambda 64: real crash chunk - step0 +0.021 [+0.008, +0.039]
+  P3 lambda 64: real crash step1 - step0 +0.112 [+0.066, +0.163]
+  P3 lambda 64: real crash pm_chunk - step0 +0.008 [+0.002, +0.015]
+  P3 lambda 64: real crash pm_step1 - step0 +0.011 [+0.003, +0.020]
+  P3 lambda 64: real crash chunk - pm_chunk +0.014 [+0.004, +0.026]
+  P3 lambda 128 (primary): real crash chunk - step0 +0.000 [+0.000, +0.000]
+  P3 lambda 128 (primary): real crash step1 - step0 +0.089 [+0.041, +0.143]
+  P3 lambda 128 (primary): real crash pm_chunk - step0 +0.003 [+0.000, +0.008]
+  P3 lambda 128 (primary): real crash pm_step1 - step0 +0.003 [+0.000, +0.008]
+  P3 lambda 128 (primary): real crash chunk - pm_chunk -0.003 [-0.008, +0.000]
+  P3 lambda 256: real crash chunk - step0 +0.000 [+0.000, +0.000]
+  P3 lambda 256: real crash step1 - step0 +0.000 [+0.000, +0.000]
+  P3 lambda 256: real crash pm_chunk - step0 +0.000 [+0.000, +0.000]
+  P3 lambda 256: real crash pm_step1 - step0 +0.000 [+0.000, +0.000]
+  P3 lambda 256: real crash chunk - pm_chunk +0.000 [+0.000, +0.000]

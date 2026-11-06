@@ -1,0 +1,21 @@
+POOLED held-out: 653 windows, 120 scenes
+  self_orig  gain +0.018 [-0.006, +0.043] | progress@<=2% 0.65 [0.30, 1.47] | speed-blind 0.657
+  self_rpt   gain +0.059 [+0.026, +0.094] | progress@<=2% 2.15 [1.64, 2.72] | speed-blind 0.864
+  cvref      gain +0.056 [+0.028, +0.085] | progress@<=2% 2.16 [1.57, 2.50] | speed-blind 0.859
+  cvref_rpt  gain +0.073 [+0.043, +0.109] | progress@<=2% 2.44 [2.15, 2.94] | speed-blind 0.912
+  oracle     gain +0.063 [+0.033, +0.091] | progress@<=2% 2.32 [1.46, 2.75] | speed-blind 0.885
+  physics    gain +0.092 [+0.054, +0.131] | progress@<=2% 2.96 [2.61, 3.19] | speed-blind 0.950
+  h_gap0     gain +0.069 [+0.034, +0.105] | progress@<=2% 2.37 [2.06, 2.77] | speed-blind 0.936
+  cvmarg_orig gain +0.073 [+0.041, +0.107] | progress@<=2% 2.51 [2.05, 2.93] | speed-blind 0.895
+  cvmarg_rpt gain +0.075 [+0.043, +0.109] | progress@<=2% 2.56 [2.16, 2.97] | speed-blind 0.919
+  plan-blind progress@<=2% 1.47 [1.07, 1.86]
+  paired gain cvmarg_orig - cvref: +0.017 [+0.006, +0.029]
+  paired gain cvmarg_orig - self_orig: +0.056 [+0.032, +0.081]
+  paired gain cvmarg_rpt - cvref_rpt: +0.002 [-0.005, +0.006]
+  paired gain cvmarg_rpt - self_rpt: +0.015 [+0.005, +0.027]
+  paired gain cvmarg_orig - cvref_rpt: +0.000 [-0.013, +0.010]
+  paired gain physics - cvmarg_orig: +0.018 [+0.005, +0.036]
+  paired gain physics - cvmarg_rpt: +0.017 [+0.005, +0.034]
+  paired gain h_gap0 - cvmarg_orig: -0.004 [-0.021, +0.011]
+  paired gain oracle - cvmarg_orig: -0.010 [-0.024, +0.001]
+  progress@<=2% self_orig - plan-blind: -0.82 [-1.37, +0.05]
